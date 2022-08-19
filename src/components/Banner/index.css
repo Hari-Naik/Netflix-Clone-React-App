@@ -1,0 +1,149 @@
+.banner {
+  top: 0;
+  height: 450px;
+  z-index: -1;
+  margin-bottom: -20px;
+  mask-image: linear-gradient(to bottom, #fff, #fff, rgba(0, 0, 0, 0));
+}
+
+.banner-content {
+  padding-top: 140px;
+  height: 190px;
+  width: 80%;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-content {
+    width: 50%;
+    margin-left: 80px;
+  }
+}
+
+.banner-title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-title {
+    font-size: 64px;
+    line-height: 62px;
+  }
+}
+
+.banner-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.banner-button {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 74px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  border: none;
+  flex-grow: 0;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.banner-button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+.banner-loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  height: 350px;
+  background: #0d0d0d;
+  border-radius: 8px;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  height: 350px;
+  background: #0d0d0d;
+  border-radius: 8px;
+}
+
+.failure-view-img {
+  width: 22px;
+  height: 19px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 44px;
+    height: 38px;
+  }
+}
+
+.failure-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.failure-button {
+  width: 77px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #171f46;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-button {
+    width: 94px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

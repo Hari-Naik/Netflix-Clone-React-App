@@ -1,0 +1,29 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination p {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.page-link {
+  width: 20px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #d7dfe9;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}

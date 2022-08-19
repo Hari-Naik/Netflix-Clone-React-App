@@ -1,0 +1,37 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-category {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  align-self: flex-start;
+  padding-bottom: 15px;
+}
+
+.slick-container {
+  width: 90%;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.height {
+  height: 250px !important;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-container h1 {
+    margin-left: 145px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+}
+
+.movie-item {
+  display: flex;
+  flex: 1;
+  min-width: 90px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 450ms;
+}
+
+.movie-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-item:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+  .movie-item {
+    min-width: 150px;
+    border-radius: 10px;
+  }
+  .movie-img {
+    border-radius: 10px;
+  }
+}
+
+.similar-movies-item {
+  width: 90px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-movies-item {
+    width: 192px;
+    border-radius: 10px;
+  }
+}

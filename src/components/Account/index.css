@@ -1,0 +1,136 @@
+.Account-container {
+  height: 100vh;
+  width: 100vw;
+  background: #131313;
+}
+
+.account-details {
+  height: 70vh;
+  width: 100vw;
+  padding-top: 65px;
+  padding-left: 25px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .account-details {
+    padding-left: 65px;
+  }
+}
+
+.account-details h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #131313;
+  padding-bottom: 15px;
+}
+
+.membership-details {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  border-top: 2px solid #cbd5e1;
+  border-bottom: 2px solid #cbd5e1;
+  padding: 25px;
+}
+
+.title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #94a3b8;
+}
+
+.membership-details div {
+  margin-left: 15px;
+}
+
+.username {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1e293b;
+}
+
+.password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #64748b;
+}
+
+.plan-details {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.plan-details div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.premium {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1e293b;
+}
+
+.premium-img-container {
+  height: 22px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1e293b;
+  border-radius: 2px;
+}
+
+.premium-img {
+  width: 56px;
+  height: 18px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-btn {
+  height: 40px;
+  width: 89px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #e50914;
+  border-radius: 4px;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 35px;
+}

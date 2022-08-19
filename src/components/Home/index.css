@@ -1,0 +1,6 @@
+.Home {
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 45px;
+  background: #131313;
+}

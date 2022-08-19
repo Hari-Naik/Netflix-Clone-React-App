@@ -1,0 +1,89 @@
+.popular-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: #131313;
+}
+
+.popular-movies-container {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.popular-movies-list-items {
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.popular-failure-view-img {
+  height: 172px;
+  width: 232px;
+}
+
+@media (min-width: 768px) {
+  .popular-failure-view-img {
+    height: 276px;
+    width: 375px;
+  }
+}
+
+.popular-failure-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-failure-description {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+.failure-button {
+  width: 107px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-button {
+    gap: 8px;
+    width: 110px;
+    height: 38px;
+  }
+}
+
+.loader-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
